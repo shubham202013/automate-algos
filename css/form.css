@@ -54,13 +54,17 @@ form button {
     width: 100%;
     padding: 10px;
     background-color: rgb(87, 228, 101);
-    color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
     margin: 30px auto;
     transition: 0.3s ease-in-out;
+}
+
+form button a {
+    color: white;
+    text-decoration: none;
 }
 
 form button:hover {
