@@ -1,0 +1,39 @@
+.certificatesection {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.certificate-cnt {
+    color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 50px;
+}
+
+.certificatesection img {
+    width: 40%;
+}
+
+.certificate-cnt h1 {
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+.certificate-cnt h1 span {
+    background: linear-gradient(143deg, #00F260 0.01%, #0575E6 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.certificate-cnt h3 {
+    font-size: 30px;
+    margin: 20px auto;
+    color: rgb(87, 228, 101);
+}
+
+.certificate-cnt ul {
+    padding: 30px;
+    font-size: 20px;
+}

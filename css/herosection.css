@@ -1,0 +1,150 @@
+.herosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+.hero-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.video-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.herosection .sec-title {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.herosection h1 {
+    background: linear-gradient(143deg, #00F260 0.01%, #0575E6 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+
+.herosection p {
+    margin: 30px 0;
+    font-size: 20px;
+    width: 60%;
+    color: white;
+}
+
+.herosection .evt-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.herosection col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.evt-detail .event-detail-card {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgba(0, 242, 96, 0.10) 0.01%, rgba(5, 117, 230, 0.50) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    padding: 10px;
+    gap: 5px;
+    width: 300px;
+    margin: 10px;
+}
+
+.evt-detail h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.evt-detail h2 {
+    color: white;
+    font-size: 15px;
+}
+
+.hero-cnt h4 {
+    color: white;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.video-area {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.video-area div {
+    width: 100%;
+}
+
+.herosection iframe {
+    width: 512px;
+    height: 288px;
+    border-radius: 15px;
+    margin: 60px 0;
+}
+
+.launch-time {
+    color: white;
+    display: flex;
+}
+
+.launch-time p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.launch-time span {
+    font-size: 15px;
+}
+
+.launch-time .space {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.launch-time .space h1 {
+    color: white;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+    border: solid white 2px;
+    margin: 10px;
+    width: 70px;
+    padding: 15px;
+}
+
+.herosection .btn a {
+    padding: 20px 30%;
+}
+
+.herosection .btn a:hover {
+    border: none;
+    color: white;
+    background: #0f77a3;
+}

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+}
+
+.learningsection,
+.faqsection,
+footer,
+.mentorsection,
+.infosection,
+.testimonialsection,
+.rewardsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.herosection,
+.learningsection,
+.faqsection,
+footer,
+.mentorsection {
+    align-items: start;
+}
+
+.sec-title {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: normal;
+    color: white;
+    text-shadow: rgba(155, 155, 155, 0.5) 0 0 10px;
+    padding: 0 30px;
+}
+
+.sec-title span {
+    background: linear-gradient(143deg, #00F260 0.01%, #0575E6 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.section-sub-title {
+    color: white;
+}
+
+.btn {
+    margin: 30px 0;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(87, 228, 101);
+    padding: 15px 50px;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,22 @@
+.infosection {
+    margin: 100px auto;
+}
+
+.infosection .sec-title {
+    margin: 100px auto;
+}
+
+.infosection .block {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    background: linear-gradient(135deg, rgba(0, 242, 96, 0.10) 0.01%, rgba(5, 117, 230, 0.50) 100%);
+    border: solid white 1px;
+}
+
+.block span {
+    margin: auto 20px;
+}

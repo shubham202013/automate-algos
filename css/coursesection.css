@@ -1,0 +1,113 @@
+.coursesection {
+    background: linear-gradient(135deg, rgba(0, 242, 96, 0.05) 0.01%, rgba(5, 117, 230, 0.25) 100%);
+    margin: auto 100px;
+    /* padding: 30px; */
+    border-radius: 15px;
+}
+
+.course-modules {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.coursesection .sec-title {
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course {
+    border: solid white 2px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 20px;
+    min-height: 400px;
+    width: 300px;
+    background: linear-gradient(135deg, rgba(0, 242, 96, 0.10) 0.01%, rgba(5, 117, 230, 0.50) 100%);
+}
+
+.course h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.course ul {
+    margin: 20px;
+}
+
+.course li {
+    color: white;
+}
+
+.extra-course {
+    align-items: center;
+}
+
+.extra-course .row {
+    margin: 50px;
+}
+
+.extra-course .card {
+    width: 800px;
+    color: white;
+    border: dashed white 2px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, rgba(0, 242, 96, 0.10) 0.01%, rgba(5, 117, 230, 0.50) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 20px;
+    min-height: 150px;
+}
+
+.extra-course .card .cnt,
+.extra-course .card .price {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.extra-course .cnt {
+    width: 50%;
+}
+
+.extra-course .price {
+    width: 50%;
+}
+
+.extra-course .card .price {
+    align-items: end;
+}
+
+.extra-course .card .cnt h3 {
+    font-size: 25px;
+}
+
+.extra-course .card .price span {
+    font-size: 15px;
+}
+
+.extra-course .price span:nth-last-child(1) {
+    font-size: 30px;
+    color: rgb(50, 204, 66);
+}
+
+.coursesection .btn a {
+    font-size: 20px;
+    padding: 20px 400px;
+    background: linear-gradient(135deg, rgb(87, 228, 101), #0f77a3);
+}

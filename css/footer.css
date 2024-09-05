@@ -1,0 +1,21 @@
+footer {
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #37943b;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    margin: 100px auto 0;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-data {
+    font-size: 13px;
+}
+
+footer .btn a:hover {
+    border: none;
+    color: white;
+    background: #0f77a3;
+}

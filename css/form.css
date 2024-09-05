@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-width: fit-content;
+    background-color: black;
+}
+
+.form-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff77;
+    border-radius: 20px;
+    margin: 100px auto;
+    width: 500px;
+    padding: 50px 30px;
+}
+
+.logo {
+    margin: 20px 0;
+    margin-top: 50px;
+    height: 100px;
+}
+
+h1 {
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    padding: 5px 20px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(87, 228, 101);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 30px auto;
+    transition: 0.3s ease-in-out;
+}
+
+form button:hover {
+    border: none;
+    color: white;
+    background: #0f77a3;
+}
+
+#course-form-cover div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#course-form-cover div input {
+    width: 20%;
+}
+
+#course-form-cover div label {
+    width: 80%;
+}
+
+#course-form-cover div b {
+    color: black;
+}
+
+#course-form-cover div p {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}

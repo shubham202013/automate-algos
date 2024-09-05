@@ -1,0 +1,67 @@
+.reward-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.rewardsection .sec-title .underline-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reward-cover .card {
+    color: white;
+    border: dashed white 2px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, rgba(0, 242, 96, 0.10) 0.01%, rgba(5, 117, 230, 0.50) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    min-height: 150px;
+    margin: auto 20px;
+}
+
+.card .cnt,
+.card .price {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.card .price {
+    align-items: end;
+}
+
+.card .cnt h3 {
+    font-size: 25px;
+}
+
+.card .cnt p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.card .price span {
+    font-size: 15px;
+}
+
+.price span:nth-last-child(1) {
+    font-size: 40px;
+    color: rgb(50, 204, 66);
+}
+
+.rewardsection .btn {
+    margin-bottom: 100px;
+}
+
+.rewardsection .btn a {
+    padding: 20px 300px;
+    font-size: 25px;
+    background: linear-gradient(135deg, rgb(87, 228, 101), #0f77a3);
+}

@@ -1,0 +1,35 @@
+.learningsection .sec-title {
+    margin: 0 0 100px;
+}
+
+.learningsection h3 {
+    font-size: 30px;
+}
+
+.learningsection p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.learningsection .block {
+    background-color: #ffffff26;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px 30px;
+    padding: 20px;
+    width: 600px;
+    min-height: 200px;
+}
+
+.block-cnt {
+    width: 50%;
+}
+
+.learningsection .block img {
+    width: 40%;
+    border-radius: 10px;
+    margin: auto 15px;
+}

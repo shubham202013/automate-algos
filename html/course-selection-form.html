@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Confirmation for course payment</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="form-area">
+        <img src="../img/logo.png" class="logo">
+
+        <div id="course-form-cover">
+            <h1>Select Your Courses</h1>
+            <form action="https://formsubmit.co/e8d38c6bdb842a2186aea128dc3b56b2" method="POST" id="course-form">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://automatealgos.vercel.app">
+                <input type="hidden" name="_subject" value="New Purchase on Automate Algos!">
+                <div>
+                    <input type="checkbox" name="COURSE1" id="course1" value="20000">
+                    <label for="course1">Main-Course (Module 1 - 8) - <b>₹ 20,000</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="COURSE2" id="course2" value="100000">
+                    <label for="course2">Code of 5 Live Strategies - <b>₹ 1,00,000</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="COURSE3" id="course3" value="45000">
+                    <label for="course3">Backtested reports of 2 working strategies - <b>₹ 45,000</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="COURSE4" id="course4" value="20000">
+                    <label for="course4">Option Trading Basics Module - <b>₹ 20,000</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="COURSE5" id="course5" value="15000">
+                    <label for="course5">Monthly Live sessions with the mentor - <b>₹ 15,000</b></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="COURSE6" id="course6" value="20000">
+                    <label for="course6">Interview Questions Sheet for cracking Hedge Funds - <b>₹ 20,000</b></label>
+                </div>
+                <div>
+                    <p>Total: ₹<span id="total-price">0</span></p>
+                </div>
+                <button type="submit" id="confirm-btn">Confirm</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/form.js"></script>
+</body>
+
+</html>

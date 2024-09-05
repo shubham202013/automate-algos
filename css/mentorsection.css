@@ -1,0 +1,81 @@
+.mentor {
+    margin: 50px 0;
+    /* padding: 0 50px; */
+    border-radius: 20px;
+    background-color: #ffffff26;
+    color: white;
+    width: 1300px;
+}
+
+.mentor-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    padding-bottom: 0;
+}
+
+.mentorsection img {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.mentorsection .mentor-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 50px;
+    width: 50%;
+}
+
+.mentor-details h1 {
+    font-size: 50px;
+    margin: 15px 0;
+    padding: 10px;
+    color: rgb(50, 204, 66);
+}
+
+.mentor-details p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.mentor-num-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentor-num-data .data-card {
+    margin: 10px 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff26;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.mentor-num-data img {
+    width: 50px;
+    margin: 10px;
+    box-shadow: none;
+}
+
+.mentor-num-data .num {
+    color: rgba(9, 185, 9, 0.9);
+    text-align: center;
+    font-size: 20px;
+    padding: 0 10px;
+    border-left: solid rgba(7, 41, 7, 1) 2px;
+}
+
+.data-card:nth-child(1) .num::after {
+    content: "+ Followers";
+}
+
+.data-card:nth-child(2) .num::after {
+    content: "+ Subscribers";
+}
