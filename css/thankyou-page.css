@@ -18,19 +18,25 @@ body {
     background-color: #ffffff77;
     border-radius: 20px;
     margin: 100px auto;
-    width: 500px;
+    width: 800px;
     padding: 50px;
 }
 
 h1 {
     margin: 30px auto;
     text-align: center;
-    color: white;
     font-size: 50px;
 }
 
+h1 span {
+    background: linear-gradient(143deg, #00F260 0.01%, #0575E6 100%);
+    background-clip: text;
+    color: transparent;
+}
+
 p {
-    font-size: 30px;
+    font-size: 25px;
+    color: white;
     margin: 50px auto;
     text-align: center;
 }
