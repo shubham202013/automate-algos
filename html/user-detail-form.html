@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="form-area">
+    <!-- <div class="form-area">
         <img src="../img/logo.png" class="logo">
         <div id="detail-form-cover">
             <h1>Register for Webinar</h1>
@@ -21,12 +21,58 @@
                 <input type="text" name="Name" id="fullname" placeholder="Enter your Full Name" required>
                 <input type="email" name="Email" id="email" placeholder="Enter your Email" required>
                 <input type="tel" name="Phone_number" id="phone" placeholder="Enter your Phone Number" pattern="[0-9]{10}" required>
-                <!-- <button type="submit" id="proceed-btn"><a href="../html/thankyou-page.html">Proceed</a></button> -->
                 <button type="submit" id="proceed-btn"><a href="https://automatealgos-landing-page.vercel.app/html/thankyou-page.html">Proceed</a></button>
             </form>
         </div>
-    </div>
+    </div> -->
     <!-- <script src="../js/submittion.js"></script> -->
+
+    <div class="form-area">
+        <img src="../img/logo.png" class="logo">
+        <div id="detail-form-cover">
+            <h1>Register for Webinar</h1>
+            <form action="https://submit-form.com/HDy2yNVOU" id="details-form" method="POST">
+                <input type="text" name="Name" id="fullname" placeholder="Enter your Full Name" required>
+                <input type="email" name="Email" id="email" placeholder="Enter your Email" required>
+                <input type="tel" name="Phone_number" id="phone" placeholder="Enter your Phone Number" pattern="[0-9]{10}" required>
+                <button type="submit" id="proceed-btn">Proceed</button>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('details-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            // Submit the form data via Fetch API or XMLHttpRequest
+            const form = event.target;
+            const formData = new FormData(form);
+            console.log('form.action', form.action)
+            console.log('formData', formData)
+            fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                // headers: {
+                //     'Content-Type': 'application/json'
+                // }
+            })
+            .then(response => {
+                if (response.ok) {
+                    console.log('sucess');
+                    
+                    // Redirect to the thank-you page on successful submission
+                    // window.location.href = "https://automatealgos-landing-page.vercel.app/html/thankyou-page.html";
+                } else {
+                    alert('Form submission failed. Please try again.');
+                }
+            })
+            .catch(error => {
+                console.error('Error submitting form:', error);
+                alert('There was an error submitting the form.');
+            });
+        });
+    </script>
+    
 </body>
 
 </html>
