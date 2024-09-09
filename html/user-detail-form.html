@@ -10,6 +10,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Enter Your Details</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1947523152389734');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1947523152389734&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -18,17 +45,17 @@
         <div id="detail-form-cover">
             <h1>Register for Webinar</h1>
             <form action="https://submit-form.com/HDy2yNVOU" id="details-form">
+                <input type="hidden" name="_redirect" value="https://automatealgos-landing-page.vercel.app/html/thankyou-page.html">
                 <input type="text" name="Name" id="fullname" placeholder="Enter your Full Name" required>
                 <input type="email" name="Email" id="email" placeholder="Enter your Email" required>
                 <input type="tel" name="Phone_number" id="phone" placeholder="Enter your Phone Number" pattern="[0-9]{10}" required>
-                <button type="submit" id="proceed-btn"><a href="https://automatealgos-landing-page.vercel.app/html/thankyou-page.html">Proceed</a></button>
+
+                <button type="submit" id="proceed-btn">Proceed</button>
+
+                <!-- <button type="submit" id="proceed-btn"><a href="../html/thankyou-page.html">Proceed</a></button> -->
             </form>
         </div>
     </div>
-    <!-- <script src="../js/submittion.js"></script> -->
-
-    
-    
 </body>
 
 </html>

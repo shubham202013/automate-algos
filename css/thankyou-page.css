@@ -41,24 +41,32 @@ p {
     text-align: center;
 }
 
-button {
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
     width: 80%;
     padding: 10px;
     background-color: rgb(87, 228, 101);
-    border: none;
     border-radius: 10px;
-    cursor: pointer;
-    font-size: 15px;
     margin: 30px auto;
-    transition: 0.3s ease-in-out;
 }
 
-button a {
+button {
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+a {
     color: white;
     text-decoration: none;
 }
 
-button:hover {
+a:hover {
     border: none;
     color: white;
     background: #0f77a3;
