@@ -9,7 +9,7 @@ document.getElementById('registration-form').addEventListener('submit', function
         })
         .then(response => {
             if (response.ok) {
-                window.location.href = 'https://automatealgos-landing-page.vercel.app/html/thankyou-page.html';
+                window.location.href = 'https://webinar.automatealgos.in/html/thankyou-page.html';
             } else {
                 alert('There was an error with your submission.');
             }
